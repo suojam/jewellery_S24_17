@@ -1,3 +1,5 @@
+
+
 function playVideo() {
     var dom = document.getElementById('div1');
     dom.innerHTML = '';
@@ -17,9 +19,9 @@ function playVideo() {
     dom.appendChild(videoContainer);
 }
 
-function getQuote() {
-    window.location.href = `../contact.html`;
-}
+//function getQuote() {
+    //window.location.href = `../contact.html`;
+//}
 
 var num1 = 0;
 var num2 = 0;
